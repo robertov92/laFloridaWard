@@ -13,7 +13,7 @@
     <nav class="bg-gray-900 p-3">
         <div class="max-w-7xl mx-auto flex justify-between">
             <div class="flex">
-                <div>
+                <div class="ml-3">
                     <!--Brand and Logo-->
                     <a class="flex items-center" href="#">
                         <img class="w-7" src="images/icon.png" alt="icon">
@@ -23,15 +23,16 @@
             </div>
             <!--Secondary menu-->
             <div class="hidden md:flex items-center text-xl">
-                <a class="block mx-2" href="#">Features</a>
-                <a class="block mx-2" href="#">Features</a>
-                <a class="block mx-2" href="#">Features</a>
-                <a class="block mx-2" href="#">Features</a>
+                <a class="block mx-3" href="#">Actividades</a>
+                <a class="block mx-3" href="#">Videos</a>
+                <a class="block mx-3" href="#">Fotos</a>
+                <a class="block mx-3" href="#">Anuncios</a>
+                <a class="block mx-3" href="#">Templo</a>
 
             </div>
 
             <!--mobile button-->
-            <div class="md:hidden flex items-center">
+            <div class="md:hidden flex items-center mr-3">
                 <button id="btn">
               <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -41,12 +42,16 @@
         </div>
         <!--Mobile menu-->
         <div class="hidden md:hidden text-xl" id="mobile-menu">
-            <a class="block m-2" href="#">Features</a>
-            <a class="block m-2" href="#">Features</a>
-            <a class="block m-2" href="#">Features</a>
-            <a class="block m-2" href="#">Features</a>
+            <a class="block m-3 mt-5" href="#">Actividades</a>
+            <a class="block m-3" href="#">Videos</a>
+            <a class="block m-3" href="#">Fotos</a>
+            <a class="block m-3" href="#">Anuncios</a>
+            <a class="block m-3" href="#">Templo</a>
         </div>
     </nav>
+    <div class="max-w-7xl mx-auto text-gray-800">
+        <h1>Zoom links</h1>
+    </div>
     <script>
         const btn = document.getElementById("btn");
         const menu = document.getElementById("mobile-menu");
