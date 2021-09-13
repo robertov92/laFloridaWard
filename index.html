@@ -9,8 +9,8 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body class="text-white">
-    <nav class="bg-gray-900 p-3">
+<body class="bg-gradient-to-b from-white to-gray-400 min-h-screen">
+    <nav class="bg-gray-900 p-3 text-white">
         <div class="max-w-7xl mx-auto flex justify-between">
             <div class="flex">
                 <div class="ml-3">
@@ -24,9 +24,9 @@
             <!--Secondary menu-->
             <div class="hidden md:flex items-center text-xl">
                 <a class="block mx-3" href="#">Actividades</a>
+                <a class="block mx-3" href="#">Anuncios</a>
                 <a class="block mx-3" href="#">Videos</a>
                 <a class="block mx-3" href="#">Fotos</a>
-                <a class="block mx-3" href="#">Anuncios</a>
                 <a class="block mx-3" href="#">Templo</a>
 
             </div>
@@ -43,15 +43,23 @@
         <!--Mobile menu-->
         <div class="hidden md:hidden text-xl" id="mobile-menu">
             <a class="block m-3 mt-5" href="#">Actividades</a>
+            <a class="block m-3" href="#">Anuncios</a>
             <a class="block m-3" href="#">Videos</a>
             <a class="block m-3" href="#">Fotos</a>
-            <a class="block m-3" href="#">Anuncios</a>
             <a class="block m-3" href="#">Templo</a>
         </div>
     </nav>
-    <div class="max-w-7xl mx-auto text-gray-800">
+
+    <!-- main content -->
+    <div class="max-w-7xl mx-auto text-gray-800 p-3">
         <h1>Zoom links</h1>
     </div>
+
+    <!-- footer -->
+    <footer class="text-center bg-gray-900 absolute bottom-0 w-full">
+        <p class="py-4 text-white">©2021 | Este sitio NO es propiedad de la Iglesia</p>
+    </footer>
+
     <script>
         const btn = document.getElementById("btn");
         const menu = document.getElementById("mobile-menu");
